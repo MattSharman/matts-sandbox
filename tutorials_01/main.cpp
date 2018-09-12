@@ -1,12 +1,15 @@
 #include <iostream>
+#include "mymath.h"
 
-int add(int a, int b);
+//int add(int a, int b)
+//{
+//    return a + b;
+//}
 
 void introduceYourself()
 {
     std::cout << "Hello!, have I got a question for you!" << std::endl;
 }
-
 
 int getValueFromUser(int x)
 {
@@ -16,11 +19,6 @@ int getValueFromUser(int x)
     std::cin >> x; //read number from console and store it in x
     return x;
  }
-
-int multiply(int z, int w)
-{
-    return z * w;
-}
 
 int doubleNumber(int a)
 {
